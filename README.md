@@ -1,14 +1,30 @@
-# React + Vite
+# David Tan — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio built with **React + Vite**, styled with Tailwind CSS, and deployed to **GitHub Pages**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://skytruong90.github.io/David-Portfolio/](https://skytruong90.github.io/David-Portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/) for animations
+- [Font Awesome](https://fontawesome.com/) & [Lucide Icons](https://lucide.dev/)
+- [EmailJS](https://www.emailjs.com/) for contact form
+- Deployed with [GitHub Pages](https://pages.github.com/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
-Demo: https://timphamvn33.github.io/React_Portfolio/
+## 📂 Project Structure
+```bash
+├── public/             # static assets
+├── src/                # React components and pages
+│   ├── components/     # Navbar, Footer, LoadingScreen, etc.
+│   ├── sections/       # Home, About, Skills, Projects, Contact
+│   └── main.jsx        # App entry point
+├── package.json        # dependencies & scripts
+├── vite.config.js      # Vite config (with GH Pages base)
+└── index.html          # root HTML
+
