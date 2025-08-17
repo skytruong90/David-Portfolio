@@ -1,13 +1,12 @@
 {
-  "name": "react_portfolio1",
-  "homepage": "https://timphamvn33.github.io/React_Portfolio/",
-  "private": true,
+  "name": "david-portfolio",
   "version": "0.0.0",
+  "private": true,
   "type": "module",
+  "homepage": "https://skytruong90.github.io/David-Portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -18,7 +17,6 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@tailwindcss/vite": "^4.0.11",
     "emailjs-com": "^3.2.0",
-    "gh-pages": "^6.3.0",
     "lucide-react": "^0.513.0",
     "motion": "^12.9.2",
     "motion-plus": "^0.1.6",
@@ -36,7 +34,7 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
-    "globals": "^15.15.0",
-    "vite": "^6.3.3"
+    "gh-pages": "^6.3.0"
   }
 }
+
